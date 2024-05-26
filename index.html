@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz 1</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Major+Mono+Display&family=Syne+Mono&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body {
+			font-family: "Syne Mono", monospace;
+			background-color: lightgrey;
+			color: #FFECDA;
+			  text-shadow:
+			    0 0 7px #cdbcac,
+			    0 0 5px #e4d1b9,
+			    0 0 21px #c5b09c;
+		}
+
+		.LOGBTN {
+			background-color: #cdbcac;
+			color: #ac947c;
+			  text-shadow:
+			    0 0 7px #ac947c,
+			    0 0 5px #c5b09c,
+			    0 0 21px #ac947c;
+		}
+
+		h1, h4 {
+			font-family: "Major Mono Display", monospace;
+		}
+
+		.container {
+			border-radius: 5px;
+			background-color: #ac947c;
+			width: 480px;
+			border: 10px solid #cdbcac;
+			padding: 10px;
+			justify-content: center;
+		}
+
+	</style>
+</head>
+<body>
+	<br /><br /><br />
+	<div class="container">
+	<center> 
+		<h1>Log In</h1>
+		<br />
+		<img src="Yprof.png" width="200" height="210" class="rounded-circle">
+	</center>
+
+		<br /><br />
+
+			<form>
+			    <div class="email mb-2">
+			    	<h4>Email/Username</h4>
+			        <input type="email" class="form-control" id="inputEmail" placeholder="example@email.com">
+			    </div>
+			    <br />
+			    <div class="password mb-2"> <!--div for password-->
+			        <h4>Password</h4>
+			        <input type="password" class="form-control" id="inputPassword" placeholder="It's a secret no worries">
+			    </div>
+
+			    <br />
+
+			    <div class="robot mb-2"> <!--div for checkbox-->
+			        <div class="text-white">
+			            <input type="checkbox" id="checkRobot">
+			            <label for="checkRobot">I'm not a robot guys</label>
+			        </div>
+			    </div>
+			<br /><br />
+			<a href="mainpage.html" class="LOGBTN btn btn-lg">Login</a>
+			<button type="submit" class="btn btn-outline-dark btn-lg">Reset</button>
+		</form>
+	</div>
+
+</body>
+</html>
